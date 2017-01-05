@@ -7,4 +7,4 @@ I design and build web applications and sites for a whole range of clients, and 
 
 If you’re an educator, manager, or conference organizer, let’s chat about me giving a talk or running a workshop. I can speak on a wide range of topics, like scaling CSS on large teams, growing remote teams, or how side projects can improve your design skills.
 
-<a href="mailto:work@ttimsmith.com?subject=I Want to Hire You" class="button button--primary">Let’s Work Together</a>
+<a href="mailto:work@anythingoes.com?subject=I Want to Hire You" class="button button--primary">Let’s Work Together</a>
