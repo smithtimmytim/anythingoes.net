@@ -1,0 +1,31 @@
+// -------------------------------
+// BUTTONS
+// -------------------------------
+
+// DEFAULT BUTTON ----------------
+.button {
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(black, .3);
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: .7rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: $yellow;
+  color: $blue;
+  text-shadow: 1px 1px rgba(white, .3);
+  transition: background-color 300ms ease-in-out;
+  &:hover,
+  &:focus {
+    background-color: darken($yellow, 5%);
+    color: $blue;
+  }
+  &:active {
+    box-shadow: none;
+    top: 2px;
+  }
+}

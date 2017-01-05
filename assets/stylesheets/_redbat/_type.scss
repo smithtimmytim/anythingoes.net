@@ -4,28 +4,42 @@
 
 // BASE TYPE ---------------------
 html {
-  font-size: 16px;
+  font-size: 19px;
   -webkit-font-smoothing: antialiased;
-  @media #{$medium-up} {
-    font-size: 22px;
-  }
 }
 
 body {
-  background-color: $red;
+  background-color: $purple;
   color: $text-color;
   font-family: $sans-type;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
-  text-align: center;
+  @media #{$medium-up} {
+    text-align: center;
+  }
 }
 
 // BLOCK TYPE --------------------
 h1 {
   color: white;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 300;
-  line-height: 1.1;
+  line-height: 1.2;
+  @media #{$medium-up} {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+p {
+  font-size: .95rem;
+  line-height: 1.4;
+  @media #{$medium-up} {
+    font-size: 1.1rem;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // LINKS -------------------------
@@ -34,6 +48,6 @@ a {
   transition: color .2s ease-in-out;
   &:focus,
   &:hover {
-    color: rgba(white, .5);
+    color: rgba(white, .55);
   }
 }

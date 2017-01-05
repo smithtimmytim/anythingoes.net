@@ -12,6 +12,10 @@
 // BASE STYLES -------------------
 @import "_redbat/type";
 
+// COMPONENTS --------------------
+@import "_redbat/buttons";
+
 // PAGE SPECIFIC -----------------
 @import "_layout/header";
 @import "_layout/main";
+@import "_layout/footer";
